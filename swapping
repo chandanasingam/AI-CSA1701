@@ -1,0 +1,11 @@
+def swap_variables(a, b):
+   temp = a
+    a = b
+    b = temp
+    return a, b
+x = float(input("Enter the value of x: "))
+y = float(input("Enter the value of y: "))
+x, y = swap_variables(x, y)
+print(f"After swapping, x = {x} and y = {y}")
+
+
